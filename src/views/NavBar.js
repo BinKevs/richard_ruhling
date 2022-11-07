@@ -33,7 +33,7 @@ const NavBar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="review" class=" py-2 pr-4 pl-3  ">
+                  <Link to="reviews" class=" py-2 pr-4 pl-3  ">
                     Reviews
                   </Link>
                 </li>

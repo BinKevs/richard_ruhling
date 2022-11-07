@@ -81,7 +81,7 @@ function Landing() {
       </div>
       <div className="h-screen relative flex">
         <div className="w-[80%] m-auto flex justify-between space-x-8">
-          <div>
+          <div className="w-1/2">
             <div className="text-5xl font-bold py-8 flex">
               24-7 Press Release |
               <img
@@ -95,16 +95,7 @@ function Landing() {
                 While much of the information derived from divination are
                 concerned with "what" will occur, what is more interesting to
                 modern followers of prophecy are the questions of "where" and
-                "when", with an emphasis on "end-times" prophecies. According to
-                the US Geological Survey, "the western United States lies along
-                the boundaries of major tectonic plates that make up the Earth's
-                crust—the North American Plate and the ocean plates to the west.
-                These plates are moving against each other, breaking up the
-                crust along many faults like the San Andreas Fault." Scientists
-                today observe a crescendo of seismic activity on the Pacific
-                Ring of Fire, and though the San Andreas Fault is 80 years
-                overdue for a major earthquake, seismologists can't predict when
-                that will occur.
+                "when", with an emphasis on "end-times" prophecies.
                 <Link to="reviews" className="text-xl my-4 text-[#800000] flex">
                   Read More{" "}
                   <IconContext.Provider value={{ size: "1.8em" }}>
@@ -114,7 +105,7 @@ function Landing() {
               </div>
             </div>
           </div>
-          <div>
+          <div className="w-1/2">
             <div className="text-5xl font-bold py-8 flex">
               Free Publicity Focus Group |
             </div>
