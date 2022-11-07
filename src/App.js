@@ -1,6 +1,7 @@
 import "./App.css";
 import Layout from "./views/Layout";
 import Landing from "./views/Landing";
+import Review from "./views/Review";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
@@ -12,9 +13,10 @@ function App() {
           <Routes>
             {/* <Route path="/" element={<Layout />}> */}
             <Route index element={<Landing />} />
+            <Route path="reviews" element={<Review />} />
             {/* <Route path="author" element={<Author />} />
             <Route path="book" element={<Book />} />
-            <Route path="reviews" element={<Reviews />} />
+            
             <Route path="order" element={<Order />} />
             <Route path="contact" element={<ContactUs />} /> */}
             {/* </Route> */}
