@@ -6,9 +6,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 200px;
+  height: 100px;
   z-index: -5;
   width: 100%;
   background: linear-gradient(to bottom, #0b0b0b, transparent);
-  z-index: 1000;
+
 }

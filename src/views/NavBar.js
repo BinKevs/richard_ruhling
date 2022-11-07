@@ -8,14 +8,14 @@ const NavBar = () => {
 
   return (
     <>
-      <nav class=" fixed w-full z-50 bg-white">
-        <div class=" flex  justify-center items-center mx-auto pt-5">
-          <div class="">
-            <span class="md:text-5xl text-xl font-semibold ">
+      <nav class=" fixed w-full z-50 bg-white shadow-xl py-4">
+        <div class=" flex  justify-center items-center mx-auto">
+          <div class="flex justify-between w-[80%]">
+            <span class="md:text-5xl text-xl font-semibold my-auto">
               <span class="text-[#800000]"> Dr</span> Richard{" "}
               <span class="text-[#800000]">Ruhling</span>
             </span>
-            <div class=" w-full justify-center flex">
+            <div class="justify-center flex">
               <ul class="flex p-4 text-black justify-center w-full text-lg">
                 <li>
                   <Link to="/" class="py-2 pr-4 pl-3 " aria-current="page">

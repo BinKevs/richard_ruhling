@@ -5,7 +5,7 @@ import { Outlet, Link } from "react-router-dom";
 function FooterPart() {
   return (
     <>
-      <footer class="p-4 bg-black shadow  md:p-6 text-white">
+      <footer class="p-4 bg-white shadow  md:p-6 text-black">
         <div className="w-[80%] mx-auto space-y-8">
           {" "}
           <img className="mx-auto" src={stoneHenge} alt="" />
@@ -14,7 +14,7 @@ function FooterPart() {
               href="https://www.facebook.com/stonhenge-literary-media-102558429187060"
               target="_blank"
             >
-              <IconContext.Provider value={{ color: "white", size: "2em" }}>
+              <IconContext.Provider value={{ color: "black", size: "2em" }}>
                 <FaFacebookSquare />
               </IconContext.Provider>
             </a>
@@ -22,12 +22,12 @@ function FooterPart() {
               href="https://www.instagram.com/stonehengeliterarymedia/"
               target="_blank"
             >
-              <IconContext.Provider value={{ color: "white", size: "2em" }}>
+              <IconContext.Provider value={{ color: "black", size: "2em" }}>
                 <FaInstagram />
               </IconContext.Provider>
             </a>
             <a href="https://twitter.com/literary_media" target="_blank">
-              <IconContext.Provider value={{ color: "white", size: "2em" }}>
+              <IconContext.Provider value={{ color: "black", size: "2em" }}>
                 <FaTwitterSquare />
               </IconContext.Provider>
             </a>
