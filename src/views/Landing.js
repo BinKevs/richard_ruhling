@@ -14,10 +14,10 @@ function Landing() {
               How 3 Timelines and 7 Events Signal Apocalyptic Times
             </div>
           </div>
-          <div className="z-[9999]">
+          <div className="z-[9999] mt-[120px]">
             <img
               src={bookMegaQuake}
-              className="max-w-[250px] mx-auto "
+              className="max-w-[280px] mx-auto "
               alt=""
             />
           </div>
