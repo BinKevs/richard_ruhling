@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 function App() {
   return (
     <div>
-      <HashRouter basename="/richard_ruhling">
+      <HashRouter>
         {/* basename="/author_book_website" */}
         <Layout>
           <Routes>
