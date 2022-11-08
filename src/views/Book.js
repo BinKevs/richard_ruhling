@@ -37,7 +37,7 @@ function Book() {
               Now Available
             </div>
             <a
-              href="https://www.amazon.com/Around-World-Lines-James-Anstead-ebook/dp/B09FRY2XMD/ref=sr_1_1?crid=2YPXSXXLL2JPZ&keywords=around+the+world+in+five+lines+james+b+anstead&qid=1666881346&sprefix=around+the+world+in+five+lines+james+b+anstea%2Caps%2C310&sr=8-1"
+              href="https://www.amazon.com/MegaQuake-2023-Timelines-Events-Apocalyptic-ebook/dp/B09W1XVVMV/ref=cm_cr_arp_d_product_top?ie=UTF8"
               target="_blank"
               rel="noreferrer"
             >

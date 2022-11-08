@@ -1,5 +1,5 @@
 import flockBirds from "../assets/flockBirds.png";
-import bookMegaQuake from "../assets/bookMegaQuake.png";
+import bookMegaQuake from "../assets/megaQuake2023.jpg";
 import authorRuhling from "../assets/authorRuhling.jpg";
 import { IconContext } from "react-icons";
 import { AiOutlineRight } from "react-icons/ai";
@@ -19,6 +19,27 @@ function Landing() {
               How 3 Timelines and 7 Events Signal Apocalyptic Times
             </div>
           </div>
+          {/* <div>
+            {" "}
+            <img
+              className="max-w-[300px] mx-auto border-2 border-black"
+              src={bookMegaQuake}
+              alt=""
+            />
+          </div> */}
+          <a
+            href="https://www.amazon.com/MegaQuake-2023-Timelines-Events-Apocalyptic-ebook/dp/B09W1XVVMV/ref=cm_cr_arp_d_product_top?ie=UTF8"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div class="border-2 border-black rounded-lg bg-white text-md px-5 md:py-2.5 py-3.5 max-w-[250px] my-4 mx-auto">
+              <img
+                className="pt-2 "
+                src="https://jamesanstead.com/wp-content/uploads/2021/02/580b57fcd9996e24bc43c518-1-300x60.png"
+                alt=""
+              />
+            </div>
+          </a>
           {/* <div className="z-[9999]">
             <img
               src={bookMegaQuake}
@@ -107,16 +128,17 @@ function Landing() {
           </div>
         </div>
       </div>
-      <div className="h-screen relative flex font-light">
+      <div className="relative flex font-light mt-[100px]">
         <div className="w-[80%] m-auto flex justify-between space-x-8">
-          <div className="w-1/2">
+          <div className="">
             <div className="text-5xl py-8 flex">
-              24-7 Press Release |
+              24-7 Press Release
+              {/* |
               <img
                 className="bg-black ml-2 my-auto"
                 src="https://www.24-7pressrelease.com/assets/img/logo-light-footer.png"
                 alt=""
-              />
+              /> */}
             </div>
             <div className="flex justify-between text-justify">
               <div className="text-xl font-normal">
@@ -124,23 +146,6 @@ function Landing() {
                 concerned with "what" will occur, what is more interesting to
                 modern followers of prophecy are the questions of "where" and
                 "when", with an emphasis on "end-times" prophecies.
-                <Link to="reviews" className="text-xl my-4 text-[#800000] flex">
-                  Read More{" "}
-                  <IconContext.Provider value={{ size: "1.8em" }}>
-                    <AiOutlineRight />
-                  </IconContext.Provider>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="w-1/2 font-light">
-            <div className="text-5xl py-8 flex">Free Publicity Focus Group</div>
-            <div className="flex justify-between text-justify">
-              <div className="text-lg font-normal ">
-                He says it’s doubly true when the economy could fold to wipe out
-                prosperity. This is implied in the #1 best-selling book, the
-                Bible, where we see the sequence of a [huge] earthquake followed
-                by all the grass being burnt up.
                 <Link to="reviews" className="text-xl my-4 text-[#800000] flex">
                   Read More{" "}
                   <IconContext.Provider value={{ size: "1.8em" }}>

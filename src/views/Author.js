@@ -24,30 +24,27 @@ function Author() {
           </span>
         </div>
         <div className="ml-16 text-xl text-justify">
-          After Internal Medicine training and board certification, Ruhling had
-          a Cardiology Fellowship before teaching at Loma Linda's School of
-          Public Health. Attending a cardiology convention, he heard Pritikin
-          reporting how a low fat, low cholesterol diet reversed heart disease
-          and got 85% of patients off their drugs for diabetes and blood
-          pressure. Ruhling developed a Total Health Seminar to help people with
-          positive lifestyle changes to avoid high-risk pharma alternatives and
-          at 80 is in excellent health. He can be contacted for speaking for
-          corporate medical cost containment or by churches wanting to consider
-          an alternate to the rapture theory.
+          Richard Ruhling, MD, MPH was board-certified in Internal Medicine and
+          taught Health Science at Loma Linda University. NIH gifted his school
+          $40 million for a study to learn why the community lived about seven
+          years longer than other non-smokers. The study supports the benefits
+          of a vegan or vegetarian diet and many diseases are reversible if we
+          eat wisely. Ruhling’s wife died from another MD’s prescription for a
+          urinary infection and Ruhling visited US senators with medical
+          literature showing that prescription drugs are a leading cause of
+          illness and death.
           <br />
           <br />
           <br />
-          Dr. Richard Ruhling is a retired physician who was Assistant Professor
-          of Health Science at Loma Linda University, 1974-78. He was
-          board-certified in internal medicine and authored Why You Shouldn’t
-          Ask Your Doctor, Wake Up America and Apocalypse 2013. He predicted war
-          with Iraq six years before 9-11 and he’s predicting civil war in
-          America – DHS is preparing for it. Dr. Ruhling is President of Total
-          Health, Inc, a non-profit organization that promotes a positive
-          lifestyle as true healthcare in contrast to prescription drugs that
-          have become the #1 cause of illness, disability and death. He’s
-          available for speaking and seminars on health and topics related to
-          this book.
+          One senator said, “You are wasting your time—they own us,” speaking of
+          drug company donations to their re-election campaigns. Ruhling was
+          reared a Seventh-day Adventist, but now sees all denominations as
+          stuck in their own history and closed to new truth from the Bible. His
+          latest book, From Lockdown to knockdown The Fall of America & New
+          World Order. It points to Judgment for US in 2023. It shows how
+          judgment fell on Egypt for killing Israelite babies and how the US has
+          aborted 60 million and enslaved most people in substance abuse and
+          negative lifestyles.
         </div>
       </div>
       <OtherBooks />
