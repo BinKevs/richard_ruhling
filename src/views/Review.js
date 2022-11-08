@@ -68,62 +68,67 @@ function Review() {
   ]);
   return (
     <>
-      <div className="w-[80%] mx-auto text-black pt-[88px]">
-        <div className="text-7xl font-bold py-6  text-right">Amazon</div>
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
-          {review.map((item, index) => {
-            return (
-              <div className="p-6 italic flex" key={index}>
-                <div className="flex flex-col justify-center items-center mr-4">
-                  {" "}
-                  <IconContext.Provider
-                    value={{
-                      color: "#808080",
-                      size: "5.5em",
-                    }}
-                  >
-                    <FaUserCircle />
-                  </IconContext.Provider>
-                  <div className="flex">
+      <div className="w-[80%] mx-auto text-black pt-[88px] ">
+        <div>
+          <div className="text-7xl font-light py-6">24-7 Press Release</div>
+        </div>
+        <div>
+          <div className="text-7xl font-light py-6">Amazon</div>
+          <div className="grid grid-cols-1 gap-6">
+            {review.map((item, index) => {
+              return (
+                <div className="p-6 italic flex" key={index}>
+                  <div className="flex flex-col justify-center items-center mr-4">
                     {" "}
                     <IconContext.Provider
-                      value={{ color: "#FF9900", size: "1.5em" }}
+                      value={{
+                        color: "#808080",
+                        size: "5.5em",
+                      }}
                     >
-                      <AiFillStar />
+                      <FaUserCircle />
                     </IconContext.Provider>
-                    <IconContext.Provider
-                      value={{ color: "#FF9900", size: "1.5em" }}
-                    >
-                      <AiFillStar />
-                    </IconContext.Provider>
-                    <IconContext.Provider
-                      value={{ color: "#FF9900", size: "1.5em" }}
-                    >
-                      <AiFillStar />
-                    </IconContext.Provider>
-                    <IconContext.Provider
-                      value={{ color: "#FF9900", size: "1.5em" }}
-                    >
-                      <AiFillStar />
-                    </IconContext.Provider>
-                    <IconContext.Provider
-                      value={{ color: "#FF9900", size: "1.5em" }}
-                    >
-                      <AiFillStar />
-                    </IconContext.Provider>
+                    <div className="flex">
+                      {" "}
+                      <IconContext.Provider
+                        value={{ color: "#FF9900", size: "1.5em" }}
+                      >
+                        <AiFillStar />
+                      </IconContext.Provider>
+                      <IconContext.Provider
+                        value={{ color: "#FF9900", size: "1.5em" }}
+                      >
+                        <AiFillStar />
+                      </IconContext.Provider>
+                      <IconContext.Provider
+                        value={{ color: "#FF9900", size: "1.5em" }}
+                      >
+                        <AiFillStar />
+                      </IconContext.Provider>
+                      <IconContext.Provider
+                        value={{ color: "#FF9900", size: "1.5em" }}
+                      >
+                        <AiFillStar />
+                      </IconContext.Provider>
+                      <IconContext.Provider
+                        value={{ color: "#FF9900", size: "1.5em" }}
+                      >
+                        <AiFillStar />
+                      </IconContext.Provider>
+                    </div>
                   </div>
-                </div>
-                <div className=" flex items-center">
-                  <div className="">
-                    <div className="">"{item.message}"</div>
-                    <div className="font-semibold">
-                      -{item.creator} <span className="">Amazon Reviews</span>{" "}
+                  <div className=" flex items-center">
+                    <div className="">
+                      <div className="">"{item.message}"</div>
+                      <div className="font-semibold">
+                        -{item.creator} <span className="">Amazon Reviews</span>{" "}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
       </div>
     </>

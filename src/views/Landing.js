@@ -1,7 +1,10 @@
 import flockBirds from "../assets/flockBirds.png";
 import bookMegaQuake from "../assets/bookMegaQuake.png";
+import authorRuhling from "../assets/authorRuhling.jpg";
 import { IconContext } from "react-icons";
 import { AiOutlineRight } from "react-icons/ai";
+import { ImYoutube2 } from "react-icons/im";
+
 import { Outlet, Link } from "react-router-dom";
 function Landing() {
   return (
@@ -44,45 +47,70 @@ function Landing() {
           <img src={bookMegaQuake} className="max-w-[350px]" alt="" />
         </div> */}
       </div>
-      <div className="h-screen relative flex">
+      <div className="w-[80%] flex mx-auto my-[100px]">
+        <div className="text-5xl font-bold my-auto w-1/2">
+          <div className="mr-4 my-auto">
+            Watch on You
+            <span className="p-1 bg-[#FF0000] text-white rounded-3xl px-2 ml-1">
+              Tube
+            </span>
+          </div>
+        </div>
+        <div className="">
+          <iframe
+            width="660"
+            height="415"
+            className="rounded-2xl mx-auto"
+            src="https://www.youtube.com/embed/ZEU-Kj1UJ-Q?start=42"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <div className="relative flex font-light">
         <div className="w-[80%] m-auto">
-          <div className="flex justify-between">
-            <div className="w-[60%]">
-              <div className="text-5xl font-bold py-8">
+          <div className="">
+            <div className="">
+              <div className="text-5xl py-8">
                 Richard Ruhling | MegaQuake 2023
               </div>
-              <div className="text-lg font-semibold w-[40%]">
-                Dr. Richard Ruhling: After Internal Medicine training and board
-                certification, Ruhling had a Cardiology Fellowship before
-                teaching at Loma Linda's School of Public Health. Attending a
-                cardiology convention, he heard Pritikin reporting how a low
-                fat, low cholesterol diet reversed heart disease and got 85% of
-                patients off their drugs for diabetes and blood pressure.
-                <Link to="reviews" className="text-xl my-4 text-[#800000] flex">
-                  Read More{" "}
-                  <IconContext.Provider value={{ size: "1.8em" }}>
-                    <AiOutlineRight />
-                  </IconContext.Provider>
-                </Link>
+              <div className="flex justify-between ">
+                <div>
+                  <img
+                    src={authorRuhling}
+                    className="max-w-[700px] shadow-2xl mr-16"
+                    alt=""
+                  />
+                </div>
+                <div className="text-left text-lg w-[50%] my-auto">
+                  Dr. Richard Ruhling: After Internal Medicine training and
+                  board certification, Ruhling had a Cardiology Fellowship
+                  before teaching at Loma Linda's School of Public Health.
+                  Attending a cardiology convention, he heard Pritikin reporting
+                  how a low fat, low cholesterol diet reversed heart disease and
+                  got 85% of patients off their drugs for diabetes and blood
+                  pressure.
+                  <Link
+                    to="reviews"
+                    className="text-xl my-4 text-[#800000] flex"
+                  >
+                    Read More{" "}
+                    <IconContext.Provider value={{ size: "1.8em" }}>
+                      <AiOutlineRight />
+                    </IconContext.Provider>
+                  </Link>
+                </div>
               </div>
             </div>
-            <iframe
-              width="660"
-              height="415"
-              className="my-auto rounded-2xl"
-              src="https://www.youtube.com/embed/ZEU-Kj1UJ-Q?start=42"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
           </div>
         </div>
       </div>
-      <div className="h-screen relative flex">
+      <div className="h-screen relative flex font-light">
         <div className="w-[80%] m-auto flex justify-between space-x-8">
           <div className="w-1/2">
-            <div className="text-5xl font-bold py-8 flex">
+            <div className="text-5xl py-8 flex">
               24-7 Press Release |
               <img
                 className="bg-black ml-2 my-auto"
@@ -91,7 +119,7 @@ function Landing() {
               />
             </div>
             <div className="flex justify-between text-justify">
-              <div className="text-lg font-semibold">
+              <div className="text-xl font-normal">
                 While much of the information derived from divination are
                 concerned with "what" will occur, what is more interesting to
                 modern followers of prophecy are the questions of "where" and
@@ -105,12 +133,10 @@ function Landing() {
               </div>
             </div>
           </div>
-          <div className="w-1/2">
-            <div className="text-5xl font-bold py-8 flex">
-              Free Publicity Focus Group |
-            </div>
+          <div className="w-1/2 font-light">
+            <div className="text-5xl py-8 flex">Free Publicity Focus Group</div>
             <div className="flex justify-between text-justify">
-              <div className="text-lg font-semibold ">
+              <div className="text-lg font-normal ">
                 He says it’s doubly true when the economy could fold to wipe out
                 prosperity. This is implied in the #1 best-selling book, the
                 Bible, where we see the sequence of a [huge] earthquake followed

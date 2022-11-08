@@ -2,6 +2,8 @@ import "./App.css";
 import Layout from "./views/Layout";
 import Landing from "./views/Landing";
 import Review from "./views/Review";
+import Author from "./views/Author";
+import Book from "./views/Book";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
@@ -14,8 +16,11 @@ function App() {
             {/* <Route path="/" element={<Layout />}> */}
             <Route index element={<Landing />} />
             <Route path="reviews" element={<Review />} />
-            {/* <Route path="author" element={<Author />} />
+            <Route path="author" element={<Author />} />
             <Route path="book" element={<Book />} />
+
+            {/* <Route path="author" element={<Author />} />
+           
             
             <Route path="order" element={<Order />} />
             <Route path="contact" element={<ContactUs />} /> */}
