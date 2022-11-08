@@ -5,11 +5,11 @@ import Review from "./views/Review";
 import Author from "./views/Author";
 import Book from "./views/Book";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter basename="/richard_ruhling">
         {/* basename="/author_book_website" */}
         <Layout>
           <Routes>
@@ -27,7 +27,7 @@ function App() {
             {/* </Route> */}
           </Routes>
         </Layout>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/richard_ruhling/static/css/main.fc76d614.css",
-    "main.js": "/richard_ruhling/static/js/main.e4bb85c6.js",
+    "main.js": "/richard_ruhling/static/js/main.f6d96b51.js",
     "static/js/787.3d14c917.chunk.js": "/richard_ruhling/static/js/787.3d14c917.chunk.js",
     "static/media/kindleMegaQuake.png": "/richard_ruhling/static/media/kindleMegaQuake.7cbf3266251954dd1a94.png",
     "static/media/bookMegaQuake.png": "/richard_ruhling/static/media/bookMegaQuake.a200c60a8b545d97ff9c.png",
@@ -12,11 +12,11 @@
     "static/media/stoneHengeWhite.png": "/richard_ruhling/static/media/stoneHengeWhite.a498e4481c19991959e6.png",
     "index.html": "/richard_ruhling/index.html",
     "main.fc76d614.css.map": "/richard_ruhling/static/css/main.fc76d614.css.map",
-    "main.e4bb85c6.js.map": "/richard_ruhling/static/js/main.e4bb85c6.js.map",
+    "main.f6d96b51.js.map": "/richard_ruhling/static/js/main.f6d96b51.js.map",
     "787.3d14c917.chunk.js.map": "/richard_ruhling/static/js/787.3d14c917.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc76d614.css",
-    "static/js/main.e4bb85c6.js"
+    "static/js/main.f6d96b51.js"
   ]
 }
