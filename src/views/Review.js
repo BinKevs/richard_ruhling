@@ -70,10 +70,12 @@ function Review() {
     <>
       <div className="w-[80%] mx-auto text-black pt-[88px] ">
         <div className="">
-          <div className="text-7xl font-light py-6">24-7 Press Release</div>
-          <div className="w-[80%] mx-auto">
-            <div className="flex space-x-8 ">
-              <div className="text-lg flex">
+          <div className="md:text-7xl text-4xl font-light py-6">
+            24-7 Press Release
+          </div>
+          <div className="md:w-[80%] mx-auto">
+            <div className="flex md:flex-row flex-col md:space-x-8 ">
+              <div className="md:text-lg text-md flex">
                 {" "}
                 <IconContext.Provider
                   value={{
@@ -85,7 +87,7 @@ function Review() {
                 </IconContext.Provider>
                 <span className="my-auto ml-2">24-7 Press Release</span>
               </div>
-              <div className="text-lg flex">
+              <div className="md:text-lg text-md flex">
                 {" "}
                 <IconContext.Provider
                   value={{
@@ -200,6 +202,7 @@ function Review() {
                 className=" cursor-pointer text-blue-600 font-bold"
                 target="_Blank"
                 href="https://www.24-7pressrelease.com/press-release/494559/new-christian-book-megaquake-by-dr-richard-ruhling-predicts-san-andreas-earthquake-in-2023"
+                rel="noreferrer"
               >
                 www.24-7pressrelease.com
               </a>
@@ -207,12 +210,15 @@ function Review() {
           </div>
         </div>
         <div>
-          <div className="text-7xl font-light py-6">Amazon</div>
+          <div className="md:text-7xl text-5xl font-light py-6">Amazon</div>
           <div className="grid grid-cols-1 gap-6">
             {review.map((item, index) => {
               return (
-                <div className="p-6 italic flex w-[80%] mx-auto" key={index}>
-                  <div className="flex flex-col justify-center items-center mr-4">
+                <div
+                  className="p-6 italic flex md:flex-row flex-col md:w-[80%] text-justify mx-auto"
+                  key={index}
+                >
+                  <div className="flex flex-col justify-center items-center mr-4 ">
                     {" "}
                     <IconContext.Provider
                       value={{
@@ -222,7 +228,7 @@ function Review() {
                     >
                       <FaUserCircle />
                     </IconContext.Provider>
-                    <div className="flex">
+                    <div className="flex ">
                       {" "}
                       <IconContext.Provider
                         value={{ color: "#FF9900", size: "1.5em" }}

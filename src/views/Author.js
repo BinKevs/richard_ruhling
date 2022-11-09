@@ -10,20 +10,20 @@ function Author() {
   return (
     <>
       <div className="w-[80%] mx-auto pt-[128px] font-light mb-16">
-        <div className="flex">
-          <div className="my-auto">
-            <span class="md:text-8xl text-xl my-auto">Dr Richard Ruhling</span>
+        <div className="flex md:flex-row flex-col">
+          <div className="md:my-auto my-8">
+            <span class="md:text-8xl text-3xl my-auto">Dr Richard Ruhling</span>
           </div>
           <div className="ml-auto">
-            <img src={authorRuhling} className="max-w-[700px]" alt="" />
+            <img src={authorRuhling} className="md:max-w-[700px]" alt="" />
           </div>
         </div>
-        <div className="w-[40%] my-[40px]">
-          <span class="md:text-5xl text-xl  mr-auto ">
+        <div className="md:w-[40%] my-[40px]">
+          <span class="md:text-5xl text-3xl  md:mr-auto ">
             About Dr Richard Ruhling
           </span>
         </div>
-        <div className="ml-16 text-xl text-justify">
+        <div className="md:ml-16 text-xl text-justify">
           Richard Ruhling, MD, MPH was board-certified in Internal Medicine and
           taught Health Science at Loma Linda University. NIH gifted his school
           $40 million for a study to learn why the community lived about seven

@@ -12,7 +12,7 @@ function OtherBooks() {
       <div className="bg-black py-[40px]">
         <div className="w-[80%] mx-auto font-light text-white">
           <div className="text-5xl">Other books by Dr Richard Ruhling</div>
-          <div className="flex justify-between my-8 text-center">
+          <div className="grid md:grid-cols-5 grid-cols-2 justify-between my-8 text-center">
             <div className="max-w-[150px]">
               <div>
                 {" "}

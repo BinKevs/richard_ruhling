@@ -11,21 +11,21 @@ function Book() {
     <>
       <div className="w-[80%] mx-auto pt-[128px] font-light mb-16">
         <div className="flex justify-center ">
-          <div className="text-7xl font-light text-center">
+          <div className="md:text-7xl text-5xl font-light text-center">
             MegaQuake 2023
-            <div className="text-2xl font-semibold my-4">
+            <div className="md:text-2xl text-lg font-semibold my-4">
               How 3 Timelines and 7 Events Signal Apocalyptic Times
             </div>
           </div>
         </div>
-        <div className="flex justify-center mb-24 pt-8">
+        <div className="flex md:flex-row flex-col justify-center md:mb-24 mb-4 pt-8">
           <img src={bookMegaQuake} className="max-w-[300px]" alt="" />
           {/* <img
             src={kindleMegaQuake}
             className="border-2 max-w-[500px]"
             alt=""
           /> */}
-          <div className="text-md text-justify w-[35%] my-auto ml-8">
+          <div className="text-md text-justify md:w-[35%] my-auto md:ml-8">
             Flirting with End-Times--How We Get There, Seismologists see
             earthquakes getting larger, more frequent on the Pacific ‘Ring of
             Fire.’ They know it’s just a matter of time, but saying “It could be
@@ -51,8 +51,8 @@ function Book() {
             </a>
           </div>
         </div>
-        <div className="flex justify-center space-x-16 mt-8">
-          <div className="text-justify w-[40%]">
+        <div className="flex  md:flex-row flex-col justify-center md:space-x-16 md:mt-8">
+          <div className="text-justify md:w-[40%]">
             They wouldn’t die for a lie—they must have seen Him! The Bible has
             information relevant to our time as seen here- Daniel’s accuracy in
             kingdoms for 2500 years brings us to his vision “at the time of the
@@ -88,7 +88,7 @@ function Book() {
             <br />
             5. “sudden destruction comes on them.” (Megaquake).
           </div>
-          <div className="text-justify w-[40%] bg-black text-white p-12 my-auto">
+          <div className="text-justify md:w-[40%] bg-black text-white md:p-12 p-8 my-auto">
             We should wonder how we get from where we are to the biblical
             end-times that include an earthquake when God will shake the earth
             terribly." Isaiah 2:12,21 “The vision at the time of the end” is a

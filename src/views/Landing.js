@@ -13,9 +13,9 @@ function Landing() {
         className={`bg-[url('./assets/buildingShadow.png')] h-screen bg-cover bg-no-repeat flex justify-center items-center relative `}
       >
         <div className="text-center">
-          <div className="text-7xl font-bold z-[991]">
+          <div className="md:text-7xl text-5xl font-bold z-[991]">
             MegaQuake 2023
-            <div className="text-2xl font-semibold my-4">
+            <div className="md:text-2xl text-lg font-semibold my-4">
               How 3 Timelines and 7 Events Signal Apocalyptic Times
             </div>
           </div>
@@ -47,10 +47,10 @@ function Landing() {
               alt=""
             />
           </div> */}
-          <div className="absolute top-1/4 left-10 z-[-5]">
+          <div className="top-1/4 left-10 z-[-5] md:absolute hidden">
             <img src={flockBirds} className="max-w-[500px] opacity-50" alt="" />
           </div>
-          <div className="absolute top-[40%] right-10 z-[-5]">
+          <div className="absolute top-[40%] right-10 z-[-5] md:absolute hidden">
             <img src={flockBirds} className="max-w-[700px] opacity-50" alt="" />
           </div>
         </div>
@@ -68,8 +68,8 @@ function Landing() {
           <img src={bookMegaQuake} className="max-w-[350px]" alt="" />
         </div> */}
       </div>
-      <div className="w-[80%] flex mx-auto my-[100px]">
-        <div className="text-5xl font-bold my-auto w-1/2">
+      <div className="w-[80%] flex md:flex-row flex-col mx-auto my-[100px]">
+        <div className="md:text-5xl text-3xl font-light md:my-auto my-4 md:w-1/2">
           <div className="mr-4 my-auto">
             Watch on You
             <span className="p-1 bg-[#FF0000] text-white rounded-3xl px-2 ml-1">
@@ -79,9 +79,7 @@ function Landing() {
         </div>
         <div className="">
           <iframe
-            width="660"
-            height="415"
-            className="rounded-2xl mx-auto"
+            className="rounded-2xl mx-auto md:w-[650px] md:h-[450px] h-[250px] "
             src="https://www.youtube.com/embed/ZEU-Kj1UJ-Q?start=42"
             title="YouTube video player"
             frameborder="0"
@@ -94,18 +92,18 @@ function Landing() {
         <div className="w-[80%] m-auto">
           <div className="">
             <div className="">
-              <div className="text-5xl py-8">
+              <div className="md:text-5xl text-3xl py-8">
                 Richard Ruhling | MegaQuake 2023
               </div>
-              <div className="flex justify-between ">
+              <div className="flex md:flex-row flex-col justify-between ">
                 <div>
                   <img
                     src={authorRuhling}
-                    className="max-w-[700px] shadow-2xl mr-16"
+                    className="md:max-w-[700px] shadow-2xl md:mr-16"
                     alt=""
                   />
                 </div>
-                <div className="text-left text-lg w-[50%] my-auto">
+                <div className="md:text-left text-justify text-lg md:w-[50%] md:my-auto my-4">
                   Dr. Richard Ruhling: After Internal Medicine training and
                   board certification, Ruhling had a Cardiology Fellowship
                   before teaching at Loma Linda's School of Public Health.
@@ -131,7 +129,7 @@ function Landing() {
       <div className="relative flex font-light mt-[100px]">
         <div className="w-[80%] m-auto flex justify-between space-x-8">
           <div className="">
-            <div className="text-5xl py-8 flex">
+            <div className="md:text-5xl text-3xl py-8 flex">
               24-7 Press Release
               {/* |
               <img
@@ -141,7 +139,7 @@ function Landing() {
               /> */}
             </div>
             <div className="flex justify-between text-justify">
-              <div className="text-xl font-normal">
+              <div className="text-xl font-light">
                 While much of the information derived from divination are
                 concerned with "what" will occur, what is more interesting to
                 modern followers of prophecy are the questions of "where" and
