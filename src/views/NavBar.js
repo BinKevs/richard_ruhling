@@ -10,30 +10,30 @@ const NavBar = () => {
     <>
       <nav class=" fixed w-full z-50 bg-white shadow-xl py-4">
         <div class=" flex  justify-center items-center mx-auto">
-          <div class="flex justify-between w-[80%]">
-            <span class="md:text-5xl text-xl font-semibold my-auto">
+          <div class="flex md:flex-row flex-col justify-between w-[80%]">
+            <span class="md:text-5xl text-2xl font-semibold my-auto md:mx-0 mx-auto">
               <span class="text-[#800000]"> Dr</span> Richard{" "}
               <span class="text-[#800000]">Ruhling</span>
             </span>
             <div class="justify-center flex">
-              <ul class="flex p-4 text-black justify-center w-full text-lg">
+              <ul class="flex md:p-4 p-1 text-black justify-center w-full md:text-lg text-md space-x-3">
                 <li>
-                  <Link to="/" class="py-2 pr-4 pl-3 " aria-current="page">
+                  <Link to="/" class="py-2 " aria-current="page">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link to="author" class=" py-2 pr-4 pl-3  ">
+                  <Link to="author" class=" py-2  ">
                     Author
                   </Link>
                 </li>
                 <li>
-                  <Link to="book" class=" py-2 pr-4 pl-3  ">
+                  <Link to="book" class=" py-2  ">
                     Book
                   </Link>
                 </li>
                 <li>
-                  <Link to="reviews" class=" py-2 pr-4 pl-3  ">
+                  <Link to="reviews" class=" py-2 ">
                     Reviews
                   </Link>
                 </li>

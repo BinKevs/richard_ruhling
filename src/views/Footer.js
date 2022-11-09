@@ -13,6 +13,7 @@ function FooterPart() {
             <a
               href="https://www.facebook.com/stonhenge-literary-media-102558429187060"
               target="_blank"
+              rel="noreferrer"
             >
               <IconContext.Provider value={{ color: "black", size: "2em" }}>
                 <FaFacebookSquare />
@@ -21,12 +22,17 @@ function FooterPart() {
             <a
               href="https://www.instagram.com/stonehengeliterarymedia/"
               target="_blank"
+              rel="noreferrer"
             >
               <IconContext.Provider value={{ color: "black", size: "2em" }}>
                 <FaInstagram />
               </IconContext.Provider>
             </a>
-            <a href="https://twitter.com/literary_media" target="_blank">
+            <a
+              href="https://twitter.com/literary_media"
+              target="_blank"
+              rel="noreferrer"
+            >
               <IconContext.Provider value={{ color: "black", size: "2em" }}>
                 <FaTwitterSquare />
               </IconContext.Provider>
@@ -46,23 +52,18 @@ function FooterPart() {
             </li>
             <li>
               <Link to="author" class="mr-4 hover:underline md:mr-6">
-                About
+                Author
               </Link>
             </li>
 
             <li>
+              <Link to="book" class="mr-4 hover:underline">
+                Book
+              </Link>
+            </li>
+            <li>
               <Link to="review" class="mr-4 hover:underline">
                 Reviews
-              </Link>
-            </li>
-            <li>
-              <Link to="order" class="hover:underline">
-                Order
-              </Link>
-            </li>
-            <li>
-              <Link to="contact" class="hover:underline ml-2">
-                Contact
               </Link>
             </li>
           </ul>
