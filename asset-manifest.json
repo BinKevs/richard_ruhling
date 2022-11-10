@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/richard_ruhling/static/css/main.5340c185.css",
-    "main.js": "/richard_ruhling/static/js/main.d898b81b.js",
+    "main.css": "/richard_ruhling/static/css/main.fefa7b87.css",
+    "main.js": "/richard_ruhling/static/js/main.96f5ec94.js",
     "static/js/787.3d14c917.chunk.js": "/richard_ruhling/static/js/787.3d14c917.chunk.js",
     "static/media/kindleMegaQuake.png": "/richard_ruhling/static/media/kindleMegaQuake.7cbf3266251954dd1a94.png",
     "static/media/bookMegaQuake.png": "/richard_ruhling/static/media/bookMegaQuake.a200c60a8b545d97ff9c.png",
@@ -11,12 +11,12 @@
     "static/media/megaQuake2023.jpg": "/richard_ruhling/static/media/megaQuake2023.a5ab97d5c92b90bfa331.jpg",
     "static/media/stoneHengeWhite.png": "/richard_ruhling/static/media/stoneHengeWhite.a498e4481c19991959e6.png",
     "index.html": "/richard_ruhling/index.html",
-    "main.5340c185.css.map": "/richard_ruhling/static/css/main.5340c185.css.map",
-    "main.d898b81b.js.map": "/richard_ruhling/static/js/main.d898b81b.js.map",
+    "main.fefa7b87.css.map": "/richard_ruhling/static/css/main.fefa7b87.css.map",
+    "main.96f5ec94.js.map": "/richard_ruhling/static/js/main.96f5ec94.js.map",
     "787.3d14c917.chunk.js.map": "/richard_ruhling/static/js/787.3d14c917.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5340c185.css",
-    "static/js/main.d898b81b.js"
+    "static/css/main.fefa7b87.css",
+    "static/js/main.96f5ec94.js"
   ]
 }
