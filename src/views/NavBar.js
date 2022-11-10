@@ -16,7 +16,7 @@ const NavBar = () => {
               <span class="text-[#800000]">Ruhling</span>
             </span>
             <div class="justify-center flex">
-              <ul class="flex md:p-4 p-1 text-black justify-center w-full md:text-lg text-md space-x-3">
+              <ul class="flex md:p-4 p-1 text-black justify-center w-full md:text-lg text-md md:space-x-8 space-x-5">
                 <li>
                   <Link to="/" class="py-2 " aria-current="page">
                     Home
