@@ -68,24 +68,36 @@ function Landing() {
           <img src={bookMegaQuake} className="max-w-[350px]" alt="" />
         </div> */}
       </div>
-      <div className="w-[80%] flex md:flex-row flex-col mx-auto my-[100px]">
+      <div className="w-[80%]  mx-auto my-[100px]">
         <div className="md:text-5xl text-3xl font-light md:my-auto my-4 md:w-1/2">
-          <div className="mr-4 my-auto">
+          <div className="my-auto">
             Watch on You
             <span className="p-1 bg-[#FF0000] text-white rounded-3xl px-2 ml-1">
               Tube
             </span>
           </div>
         </div>
-        <div className="">
-          <iframe
-            className="rounded-2xl mx-auto md:w-[650px] md:h-[450px] h-[250px] "
-            src="https://www.youtube.com/embed/ZEU-Kj1UJ-Q?start=42"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+        <div className="flex md:flex-row flex-col">
+          <div>
+            <iframe
+              className="rounded-2xl mx-auto md:w-[650px] md:h-[450px] h-[250px] md:p-10 p-2"
+              src="https://www.youtube.com/embed/y83Yqa9XAA8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className="">
+            <iframe
+              className="rounded-2xl mx-auto md:w-[650px] md:h-[450px] h-[250px] md:p-10 p-2"
+              src="https://www.youtube.com/embed/ZEU-Kj1UJ-Q?start=42"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
       <div className="relative flex font-light">
@@ -112,7 +124,7 @@ function Landing() {
                   got 85% of patients off their drugs for diabetes and blood
                   pressure.
                   <Link
-                    to="reviews"
+                    to="author"
                     className="text-xl my-4 text-[#800000] flex"
                   >
                     Read More{" "}
