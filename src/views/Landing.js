@@ -1,6 +1,7 @@
 import flockBirds from "../assets/flockBirds.png";
 import bookMegaQuake from "../assets/megaQuake2023.jpg";
 import authorRuhling from "../assets/authorRuhling.jpg";
+import kindleMegaQuake from "../assets/kindleMegaQuake.png";
 import { IconContext } from "react-icons";
 import { AiOutlineRight } from "react-icons/ai";
 import { ImYoutube2 } from "react-icons/im";
@@ -27,12 +28,16 @@ function Landing() {
               alt=""
             />
           </div> */}
+
           <a
             href="https://www.amazon.com/MegaQuake-2023-Timelines-Events-Apocalyptic-ebook/dp/B09W1XVVMV/ref=cm_cr_arp_d_product_top?ie=UTF8"
             target="_blank"
             rel="noreferrer"
           >
-            <div class="border-2 border-black rounded-lg bg-white text-md px-5 md:py-2.5 py-3.5 max-w-[250px] my-4 mx-auto">
+            <div class="border-2 border-black rounded-lg bg-white text-md px-5 md:py-2.5 py-3.5 max-w-[290px] my-4 mx-auto">
+              <div className="text-md font-semibold">
+                BUY "MegaQuake 2023 HERE"
+              </div>
               <img
                 className="pt-2 "
                 src="https://jamesanstead.com/wp-content/uploads/2021/02/580b57fcd9996e24bc43c518-1-300x60.png"
@@ -47,10 +52,10 @@ function Landing() {
               alt=""
             />
           </div> */}
-          <div className="top-1/4 left-10 z-[-5] md:absolute hidden">
+          <div className="top-1/4 left-10 z-[-5] md:absolute md:block hidden">
             <img src={flockBirds} className="max-w-[500px] opacity-50" alt="" />
           </div>
-          <div className="absolute top-[40%] right-10 z-[-5] md:absolute hidden">
+          <div className="absolute top-[40%] right-10 z-[-5] absolute md:block hidden">
             <img src={flockBirds} className="max-w-[700px] opacity-50" alt="" />
           </div>
         </div>
@@ -69,6 +74,59 @@ function Landing() {
         </div> */}
       </div>
       <div className="w-[80%]  mx-auto my-[100px]">
+        <div className="my-[100px] space-y-8">
+          <div className="md:text-5xl text-3xl font-light flex md:flex-row flex-col">
+            <span className="mr-4">Grab a copy now at</span>
+            <img
+              className=" pt-[6px]"
+              src="https://jamesanstead.com/wp-content/uploads/2021/02/580b57fcd9996e24bc43c518-1-300x60.png"
+              alt=""
+            />
+          </div>
+          <div className="flex md:flex-row flex-col justify-center md:space-x-8">
+            <div className="flex md:flex-row flex-col">
+              {" "}
+              <img
+                src={kindleMegaQuake}
+                className="w-[300px] md:p-0 p-10"
+                alt=""
+              />
+              <a
+                className="my-auto md:px-0 px-10"
+                href="https://www.amazon.com/MegaQuake-2023-Timelines-Events-Apocalyptic-ebook/dp/B09W1XVVMV/ref=cm_cr_arp_d_product_top?ie=UTF8"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div class="border-2 border-black rounded-lg bg-white text-md px-5 md:py-2.5 py-3.5 max-w-[290px] mx-auto">
+                  <div className="text-md font-semibold">Kindle</div>
+                  <div className="text-[#B12704] font-bold text-sm">
+                    {" "}
+                    $0.00 <span className="text-[#FDCF91]">Kindle</span>{" "}
+                    <span className="text-black"> Unlimited</span>{" "}
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="flex md:flex-row flex-col md:space-x-4">
+              <img
+                src={bookMegaQuake}
+                className="w-[350px] md:p-0 p-12"
+                alt=""
+              />
+              <a
+                className="my-auto md:px-0 px-12"
+                href="https://www.amazon.com/Mega-Quake-2023-Timelines-Apocalyptic/dp/B0B6XL2ST8/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div class="border-2 border-black rounded-lg bg-white text-md px-5 md:py-2.5 py-3.5 max-w-[270px] mx-auto">
+                  <div className="text-md font-semibold">Paperback</div>
+                  <div className="text-[#B12704] font-bold text-sm"> $7.95</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="md:text-5xl text-3xl font-light md:my-auto my-4 md:w-1/2">
           <div className="my-auto">
             Watch on You
@@ -77,7 +135,7 @@ function Landing() {
             </span>
           </div>
         </div>
-        <div className="flex md:flex-row flex-col">
+        <div className="flex md:flex-row flex-col justify-center">
           <div>
             <iframe
               className="rounded-2xl mx-auto md:w-[650px] md:h-[450px] h-[250px] md:p-10 p-2"

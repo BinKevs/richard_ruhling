@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/richard_ruhling/static/css/main.fefa7b87.css",
-    "main.js": "/richard_ruhling/static/js/main.96f5ec94.js",
+    "main.css": "/richard_ruhling/static/css/main.e25e62b4.css",
+    "main.js": "/richard_ruhling/static/js/main.a4984fd0.js",
     "static/js/787.3d14c917.chunk.js": "/richard_ruhling/static/js/787.3d14c917.chunk.js",
-    "static/media/kindleMegaQuake.png": "/richard_ruhling/static/media/kindleMegaQuake.7cbf3266251954dd1a94.png",
     "static/media/bookMegaQuake.png": "/richard_ruhling/static/media/bookMegaQuake.a200c60a8b545d97ff9c.png",
+    "static/media/kindleMegaQuake.png": "/richard_ruhling/static/media/kindleMegaQuake.fc0a4669bfadae08287f.png",
     "static/media/flockBirds.png": "/richard_ruhling/static/media/flockBirds.27120b5cfa778999dab1.png",
     "static/media/authorRuhling.jpg": "/richard_ruhling/static/media/authorRuhling.e3130f7ba43581f81c25.jpg",
     "static/media/buildingShadow.png": "/richard_ruhling/static/media/buildingShadow.323a5b67424d487e8ef1.png",
     "static/media/megaQuake2023.jpg": "/richard_ruhling/static/media/megaQuake2023.a5ab97d5c92b90bfa331.jpg",
     "static/media/stoneHengeWhite.png": "/richard_ruhling/static/media/stoneHengeWhite.a498e4481c19991959e6.png",
     "index.html": "/richard_ruhling/index.html",
-    "main.fefa7b87.css.map": "/richard_ruhling/static/css/main.fefa7b87.css.map",
-    "main.96f5ec94.js.map": "/richard_ruhling/static/js/main.96f5ec94.js.map",
+    "main.e25e62b4.css.map": "/richard_ruhling/static/css/main.e25e62b4.css.map",
+    "main.a4984fd0.js.map": "/richard_ruhling/static/js/main.a4984fd0.js.map",
     "787.3d14c917.chunk.js.map": "/richard_ruhling/static/js/787.3d14c917.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fefa7b87.css",
-    "static/js/main.96f5ec94.js"
+    "static/css/main.e25e62b4.css",
+    "static/js/main.a4984fd0.js"
   ]
 }
