@@ -256,7 +256,7 @@ function Review() {
 				</div>
 				<div className="">
 					<div className="md:text-7xl text-4xl font-light py-6">
-						The Bride Groom Comes
+						"The Bridegroom Comes"
 					</div>
 					<div className="md:w-[80%] mx-auto">
 						<div className="flex md:flex-row flex-col md:space-x-8 ">

@@ -413,7 +413,7 @@ function Landing() {
 						</div>
 						<div className="">
 							<div className="md:text-5xl text-3xl py-8 flex">
-								"The Bride Groom
+								"The Bridegroom
 								Comes"
 								{/* |
               <img
